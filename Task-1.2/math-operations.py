@@ -15,6 +15,9 @@ def magnitude(v):
         total += x * x
     return math.sqrt(total)
 
+def cosine_similarity(a, b):
+    return dot_product(a, b) / (magnitude(a) * magnitude(b))
+
 def mean(v):
     return sum(v) / len(v)
 
@@ -35,6 +38,9 @@ for i in range(100):
 
     if abs(magnitude(a) - np.linalg.norm(a)) > 1e-9:
         print("Magnitude Failed")
+
+    if abs(cosine_similarity(a, b) - np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))) > 1e-9:
+        print("Cosine Similarity Failed")
 
     if abs(mean(a) - np.mean(a)) > 1e-9:
         print("Mean Failed")
