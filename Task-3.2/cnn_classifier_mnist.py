@@ -1,11 +1,4 @@
-"""
-Task 3.2 - CNN Image Classifier using PyTorch (MNIST)
-
-Description:
-This program trains a Convolutional Neural Network (CNN) on the MNIST
-handwritten digit dataset using PyTorch.
-"""
-# Import Libraries
+# Task 3.2 - CNN Image Classifier using PyTorch (MNIST)
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
