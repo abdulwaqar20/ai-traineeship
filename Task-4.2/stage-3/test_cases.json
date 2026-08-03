@@ -1,0 +1,181 @@
+[
+    {
+        "id":1,
+        "email":"I was charged twice for my monthly subscription. Please refund the extra payment.",
+        "expected":{
+            "category":"Billing",
+            "priority":"High"
+        }
+    },
+
+    {
+        "id":2,
+        "email":"My credit card payment failed while purchasing your service.",
+        "expected":{
+            "category":"Billing",
+            "priority":"Medium"
+        }
+    },
+
+    {
+        "id":3,
+        "email":"I cannot login to my account because my password is not working.",
+        "expected":{
+            "category":"Account",
+            "priority":"Medium"
+        }
+    },
+
+    {
+        "id":4,
+        "email":"Please delete my account permanently.",
+        "expected":{
+            "category":"Account",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":5,
+        "email":"Someone accessed my account without permission. I think it was hacked.",
+        "expected":{
+            "category":"Security",
+            "priority":"Critical"
+        }
+    },
+
+    {
+        "id":6,
+        "email":"I received a suspicious login alert from another country.",
+        "expected":{
+            "category":"Security",
+            "priority":"High"
+        }
+    },
+
+    {
+        "id":7,
+        "email":"The application crashes every time I open it.",
+        "expected":{
+            "category":"Technical",
+            "priority":"High"
+        }
+    },
+
+    {
+        "id":8,
+        "email":"The website is loading very slowly.",
+        "expected":{
+            "category":"Technical",
+            "priority":"Medium"
+        }
+    },
+
+    {
+        "id":9,
+        "email":"I love your product. It works perfectly.",
+        "expected":{
+            "category":"General",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":10,
+        "email":"Can you tell me your working hours?",
+        "expected":{
+            "category":"General",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":11,
+        "email":"My invoice contains an incorrect amount.",
+        "expected":{
+            "category":"Billing",
+            "priority":"High"
+        }
+    },
+
+    {
+        "id":12,
+        "email":"The mobile app is showing an unexpected error.",
+        "expected":{
+            "category":"Technical",
+            "priority":"High"
+        }
+    },
+
+    {
+        "id":13,
+        "email":"I forgot my username and cannot access my profile.",
+        "expected":{
+            "category":"Account",
+            "priority":"Medium"
+        }
+    },
+
+    {
+        "id":14,
+        "email":"My account password was changed by someone else.",
+        "expected":{
+            "category":"Security",
+            "priority":"Critical"
+        }
+    },
+
+    {
+        "id":15,
+        "email":"How can I upgrade my subscription plan?",
+        "expected":{
+            "category":"Billing",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":16,
+        "email":"The software installation stops at 50 percent.",
+        "expected":{
+            "category":"Technical",
+            "priority":"Medium"
+        }
+    },
+
+    {
+        "id":17,
+        "email":"I want to update my profile information.",
+        "expected":{
+            "category":"Account",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":18,
+        "email":"There are unknown transactions in my account.",
+        "expected":{
+            "category":"Security",
+            "priority":"Critical"
+        }
+    },
+
+    {
+        "id":19,
+        "email":"Thank you for the amazing customer service.",
+        "expected":{
+            "category":"General",
+            "priority":"Low"
+        }
+    },
+
+    {
+        "id":20,
+        "email":"The service is unavailable and I cannot complete my work.",
+        "expected":{
+            "category":"Technical",
+            "priority":"High"
+        }
+    }
+]

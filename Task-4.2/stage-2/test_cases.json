@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "email": "Hello support, my credit card was charged twice for my monthly subscription. I only made one payment but I see two transactions. Please refund the extra charge.",
+        "expected": {
+            "category": "Billing",
+            "priority": "High",
+            "summary": "Customer was charged twice for a subscription and wants a refund."
+        }
+    },
+    {
+        "id": 2,
+        "email": "I forgot my password and cannot log into my account. Please help me reset it.",
+        "expected": {
+            "category": "Account",
+            "priority": "Medium",
+            "summary": "Customer cannot access account because they forgot password."
+        }
+    },
+    {
+        "id": 3,
+        "email": "The mobile app crashes every time I try to upload a photo. I have restarted my phone but the problem continues.",
+        "expected": {
+            "category": "Technical",
+            "priority": "High",
+            "summary": "Customer reports app crashing during photo upload."
+        }
+    },
+    {
+        "id": 4,
+        "email": "I noticed a login from an unknown location. I did not access my account at that time. Please check this immediately.",
+        "expected": {
+            "category": "Security",
+            "priority": "Critical",
+            "summary": "Customer suspects unauthorized account access."
+        }
+    },
+    {
+        "id": 5,
+        "email": "It would be great if you could add dark mode to the application. Many users would benefit from this feature.",
+        "expected": {
+            "category": "Feature Request",
+            "priority": "Low",
+            "summary": "Customer requests a dark mode feature."
+        }
+    },
+    {
+        "id": 6,
+        "email": "My payment failed while purchasing the premium plan. I tried multiple times but it still does not work.",
+        "expected": {
+            "category": "Billing",
+            "priority": "High",
+            "summary": "Customer cannot complete payment for premium plan."
+        }
+    },
+    {
+        "id": 7,
+        "email": "The website is extremely slow today and pages take several minutes to load.",
+        "expected": {
+            "category": "Technical",
+            "priority": "Medium",
+            "summary": "Customer reports slow website performance."
+        }
+    },
+    {
+        "id": 8,
+        "email": "Please delete my account. I no longer want to use your service.",
+        "expected": {
+            "category": "Account",
+            "priority": "Low",
+            "summary": "Customer requests account deletion."
+        }
+    },
+    {
+        "id": 9,
+        "email": "Someone used my account to make purchases that I did not authorize. I need help stopping this.",
+        "expected": {
+            "category": "Security",
+            "priority": "Critical",
+            "summary": "Customer reports unauthorized purchases on account."
+        }
+    },
+    {
+        "id": 10,
+        "email": "Can you add support for exporting reports as PDF? This would make my workflow easier.",
+        "expected": {
+            "category": "Feature Request",
+            "priority": "Low",
+            "summary": "Customer requests PDF report export functionality."
+        }
+    }
+]
