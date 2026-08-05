@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What is 4892 * 17?",
+        "expected_tool": "calculator"
+    },
+    {
+        "id": 2,
+        "question": "Calculate 1250 divided by 25.",
+        "expected_tool": "calculator"
+    },
+    {
+        "id": 3,
+        "question": "What time is it in Tokyo?",
+        "expected_tool": "get_current_time"
+    },
+    {
+        "id": 4,
+        "question": "Tell me the current time in Karachi.",
+        "expected_tool": "get_current_time"
+    },
+    {
+        "id": 5,
+        "question": "Who wrote Hamlet?",
+        "expected_tool": "none"
+    },
+    {
+        "id": 6,
+        "question": "Explain what artificial intelligence is.",
+        "expected_tool": "none"
+    },
+    {
+        "id": 7,
+        "question": "What is 3456 + 789?",
+        "expected_tool": "calculator"
+    },
+    {
+        "id": 8,
+        "question": "What time is it in London?",
+        "expected_tool": "get_current_time"
+    },
+    {
+        "id": 9,
+        "question": "Who is the founder of Microsoft?",
+        "expected_tool": "none"
+    },
+    {
+        "id": 10,
+        "question": "Calculate 88 * 99.",
+        "expected_tool": "calculator"
+    }
+]
